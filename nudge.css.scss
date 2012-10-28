@@ -1,0 +1,35 @@
+@for $i from 1 through 1000 {
+  .down#{$i} { position:relative; top: 1px * $i; }
+}
+
+@for $i from 1 through 1000 {
+  .up#{$i} { position:relative; bottom: 1px * $i; }
+}
+
+@for $i from 1 through 1000 {
+  .left#{$i} { position:relative; right: 1px * $i; }
+}
+
+@for $i from 1 through 1000 {
+  .right#{$i} { position:relative; left: 1px * $i; }
+}
+
+@for $i from 1 through 1000 {
+  .width#{$i} { width: 1px * $i; }
+}
+
+@for $i from 1 through 1000 {
+  .height#{$i} { height: 1px * $i; }
+}
+
+@for $i from 1 through 1000 {
+  .textSize#{$i} { font-size: 1px * $i; }
+}
+
+@for $i from 1 through 100 {
+  .width#{$i}p { width: 1% * $i; }
+}
+
+@for $i from 1 through 100 {
+  .height#{$i}p { height: 1% * $i; }
+}
