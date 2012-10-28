@@ -1,3 +1,6 @@
+/* copyright 2012 Max Meier */
+/* http://myownpla.net */
+
 @for $i from 1 through 1000 {
   .down#{$i} { position:relative; top: 1px * $i; }
 }
