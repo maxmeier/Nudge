@@ -1,8 +1,8 @@
 Nudge
 =====
 
-<h1>Nudge elements around on the fly with CSS/SCSS.</h1>
-<h2>The following css classes are available, just replace # with any number between 1-1000 for px and 1-100 for %:</h2>
+<h3>Nudge elements around on the fly with CSS/SCSS.</h3>
+<h4>The following css classes are available, just replace # with any number between 1-1000 for px and 1-100 for %:</h4>
 <br />
 .down#  	// moves element down by # (px)<br />
 .up#		// moves element by up # (px)<br />
