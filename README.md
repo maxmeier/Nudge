@@ -4,6 +4,7 @@ Nudge
 <h3>Nudge elements around on the fly with CSS/SCSS.</h3>
 <hr />
 <b>The following css classes are available, just replace # with any number between 1-1000 for px and 1-100 for %:</b>
+
 .down#  	// moves element down by # (px)<br />
 .up#		// moves element by up # (px)<br />
 .left#		// moves element left by # (px)<br />
